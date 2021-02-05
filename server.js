@@ -11,6 +11,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static('public'));
 
+// Mongoose connect to deploy into Heroku
 mongoose.connect(
     process.env.MONGODB_URI || 'mongodb://localhost/fitness',
     {
