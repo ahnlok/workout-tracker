@@ -1,0 +1,1 @@
+mongodb+srv://ahnlok:<ahnlok123>@cluster0.h9erh.mongodb.net/<fitness-tracker>?retryWrites=true&w=majority
